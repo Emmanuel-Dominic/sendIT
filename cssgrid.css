@@ -67,17 +67,17 @@ body{
 	grid-template-columns: repeat(6,1fr);
 	grid-template-rows: repeat(12,1fr);
 	grid-template-areas: "header header header header header header"
-						 "nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar"
-						 "main main main main sidebar sidebar"
-						 "main main main main sidebar sidebar"
-						 "main main main main sidebar sidebar"
-						 "main main main main sidebar sidebar"
-						 "main main main main sidebar sidebar"
-						 "main main main main sidebar sidebar"
-						 "main main main main sidebar sidebar"	
-						 "main main main main sidebar sidebar"				 
-						 "main main main main sidebar sidebar"
-						 "footer footer footer footer footer footer";
+			     "nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar"
+	  		     "main main main main sidebar sidebar"
+			     "main main main main sidebar sidebar"
+			     "main main main main sidebar sidebar"
+			     "main main main main sidebar sidebar"
+			     "main main main main sidebar sidebar"
+			     "main main main main sidebar sidebar"
+			     "main main main main sidebar sidebar"	
+			     "main main main main sidebar sidebar"				 
+			     "main main main main sidebar sidebar"
+			     "footer footer footer footer footer footer";
 
 	}
 
