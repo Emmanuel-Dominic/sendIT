@@ -39,8 +39,7 @@ body{
 	background-color: black;
 	grid-area: nav-bar;
 	padding: auto;
-
-
+	overflow: hidden;
 }
 
 .siderbar{
@@ -229,28 +228,12 @@ img{
 }
 
 
-.button{
-  	background-color: lightgreen;
-	color: white;
-  	font-weight: bold;
-  	text-align: center;
-  	border-radius: 4px;
-  	cursor:pointer;
-  	width: 90%;
-
-}
-
 
 h1,h2,h3,h4{
 	text-align: center;
+	color: #00FFFF;
 }
 
-input{
-	width: 75%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-}
 
 input[type="radio"]{
 	width: 10%;
@@ -263,7 +246,7 @@ a{
 	font-weight: bold;
   	text-align: center;
   	text-decoration: none;
-    color: lightblue;
+    color: #00FFFF;
 
 }
 
@@ -313,7 +296,6 @@ th, td, tr{
 }
 
 .layout{
-	height: 100%;
 	background-color: white;
 	grid-area: layout;
 }
@@ -324,3 +306,77 @@ th, td, tr{
 	grid-area: foot;
 }
 
+input[type="btn"]{
+	background-color: blue;
+    border: none;
+    color: white;
+    width: 50%;
+}
+
+input[type="button"]{
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    width: 50%;
+}
+
+input[type="submit"]{
+	background-color: blue;
+    border: none;
+    color: white;
+    width: 50%;
+}
+
+
+input[type="cancel"]{
+	background-color: red;
+    padding: 8px 17px;
+    border: none;
+    color: white;
+    width: 50%;
+}
+
+input[type="change"]{
+	background-color: #4CAF50;
+    padding: 8px 17px;
+    border: none;
+    color: white;
+    width: 50%;
+}
+
+input[type='register']{
+	width: 30%;
+	text-align: center;
+    padding: 8px 17px;
+    margin: 8px 0;
+}
+
+input[type='submit']{
+	width: 30%;
+	text-align: center;
+    padding: 15px 32px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+
+
+input[type='div']{
+	width: 50%;
+	text-align: center;
+	background-color: #00FFFF;
+    padding: 8px 17px;
+    box-sizing: border-box;
+}
+
+input{
+	width: 90%;
+	text-align: center;
+    padding: 12px 28px;
+    margin: 8px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-sizing: border-box;
+}
