@@ -58,12 +58,10 @@ body{
 
 @media only screen and (max-width: 600px){
     .topnav{
-      /*overflow: hidden;*/
       background-color: black;
     }
 
     .topnav a{
-      /*float: left;*/
       display: block;
       font-weight: bold;
       text-align: center;
@@ -211,8 +209,9 @@ textarea{
 }
 
 .order-form{
+	top: 20%;
 	width: 50%;
-	height: 80%;
+	height: 90%;
     
 }
 
