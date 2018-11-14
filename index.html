@@ -2,9 +2,8 @@
 <html>
 <head>
 	<title>Index</title>
-	<link rel="stylesheet" type="text/css" href="cssgrid.css">
-  	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-	<script src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/cssgrid.css">
+	<script src="js/script.js"></script>
 </head>
 <body>
 	<div class="container">
@@ -14,17 +13,23 @@
 		<div class="nav-bar">
 			<p>We offer quality services just at your right destination</p>
          	<p>For any Inquiries, Please Click Below</p>
-         	<input type="submit" class="but" value="Click Here to Inquire" onclick="equiry();" />
+         	<input type="submit" class="but" value="Click Here to Inquire" onclick="equiry();" required/>
 		</div>
 		<div class="sidebar">
 			<form class="login-form" action="" method="post">
 	         <h2>Login Form</h2>
 	         <label for="email">Email</label>
-	         <input type="email" name="" value="" placeholder="Enter Your Email">
+	         <br>
+	         <input type="email" name="" value="" placeholder="Enter Your Email" required>
+	         <br>
 	         <label for="password">Password</label>
-	         <input type="text" name="" value="" placeholder="Enter Your Password">
+	         <br>
+	         <input type="text" name="" value="" placeholder="Enter Your Password" required>
+	         <br>
 	         <a href="#" class="forgot">forgot password?</a>
-	         <a href="home.html">Login</a>
+	         <br>
+	         <a href="home.html" class="button">Login</a>
+	         <br>
 	         <a href="signup.html"><p class="register">Register</p></a>
        		</form>
 		</div>
