@@ -171,31 +171,43 @@ a{
     color: #00FFFF;
 }
 
-
 input[type="btn"]{
 	background-color: blue;
     border: none;
     color: white;
     width: 50%;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
 }
 
 input[type="button"]{
 	background-color: #4CAF50;
     border: none;
     color: white;
-    width: 75%;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    width: 50%;
 }
 
+input[type="submit"]{
+	background-color: blue;
+    border: none;
+    color: white;
+    width: 50%;
+}
+
+
+input[type="cancel"]{
+	background-color: red;
+    padding: 8px 17px;
+    border: none;
+    color: white;
+    width: 50%;
+}
+
+input[type="change"]{
+	background-color: #4CAF50;
+    padding: 8px 17px;
+    border: none;
+    color: white;
+    width: 50%;
+}
 
 input[type='register']{
 	width: 30%;
@@ -212,10 +224,24 @@ input[type='submit']{
     box-sizing: border-box;
 }
 
+
+
+input[type='div']{
+	width: 50%;
+	text-align: center;
+	background-color: #00FFFF;
+    padding: 8px 17px;
+    box-sizing: border-box;
+}
+
 input{
 	width: 90%;
 	text-align: center;
-    padding: 15px 32px;
+    padding: 12px 28px;
     margin: 8px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
     box-sizing: border-box;
 }
