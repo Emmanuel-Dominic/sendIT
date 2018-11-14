@@ -3,38 +3,41 @@
   <head>
     <meta charset="utf-8">
     <title>Make-Order</title>
-    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
   </head>
   <body>
-    <div class="container">
-      <div class="header">
+    <div class="content">
+      <div class="head">
         <h1>SEND-IT DELIVERY ORDER</h1>
       </div>
-      <div class=" nav-bar topnav">
-          <a href="home.html" class=" active">DashBoard</a>
-          <a href="order.html">Make Order</a>
-          <a href="index.html">LogOut</a>
-      </div>
-      <div class="sidebar">
+      <div class="nav">
         <p>We deliver all your orders on time.</p>
       </div>
-      <div class="main">
-        <form class="order-form" action="" method="post">
+      <div class="layout">
+        <form class="change-form" type="change" method="post">
             <h2>Order Form</h2>
-            <label for="">Weight of the Parcel</label>
-            <output type="text" name="" value=""">20kg</output>
-            <label for="">Locationpicker</label>
-            <output type="text" name="" value=""></output>
+            <label for="" style="margin: left;">Weight of the Parcel</label>
+            <output type="text" style="margin: right;">20kg</output>
+            <br>
+            <label for="" style="margin: left;">Locationpicker</label>
+            <output type="text" style="margin: right;">Nairobi</output>
+            <br>
             <label for="">Destination Address </label>
-            <input type="text" name="" value="" placeholder="Enter Destination of Parcel">
+            <br>
+            <input type="text" name="" value="" placeholder="Enter Destination of Parcel" required>
+            <br>
             <h3>Description</h3>
-            <textarea name="name" rows="8" cols="50">Comment here</textarea>
+            <textarea name="name">Comment here</textarea>
+            <br>
             <button type="submit" value="Submit" name="button" class="btn" onclick="order();">Submit</button>
+            <br>
+            <br>
+            <a class="button" href="home.html">Submit</a>
         </form>
       </div>
-      <div class="footer">
+      <div class="foot">
         <p>SEND-IT SERVICES <a href="#">@copyright---emmanuel</a></p>
       </div>
     </div>
