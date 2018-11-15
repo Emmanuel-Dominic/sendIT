@@ -1,0 +1,247 @@
+body{
+	font-family:  sans-serif, serif;
+
+}
+
+.container{
+	text-align: center;
+	display: grid;
+	grid-template-columns: repeat(1,1fr);
+	grid-template-rows: repeat(12,1fr);
+	grid-template-areas: "header"
+						 "nav-bar"
+						 "sidebar"
+						 "sidebar"
+						 "sidebar"
+						 "main"
+						 "main"
+						 "main"
+						 "main"				
+						 "main"				 
+						 "main"
+						 "footer";
+
+}
+
+.main{
+	background-color: white;
+	grid-area: main;
+	padding: auto;
+
+}
+
+.header{
+	background-color: grey;
+	grid-area: header;
+	padding: auto;
+}
+
+.nav-bar{
+	background-color: black;
+	color: white;
+	grid-area: nav-bar;
+	padding: auto;
+
+}
+
+.sidebar{
+	background-color: grey;
+	grid-area: sidebar;
+}
+
+.footer{
+	background-color: black;
+	grid-area: footer;
+	padding: auto;
+
+}
+
+@media only screen and (min-width: 600px) {
+  
+    .container{
+	background-color: rgb(0, 0, 0);
+	display: grid;
+	grid-template-columns: repeat(6,1fr);
+	grid-template-rows: repeat(13,1fr);
+	grid-template-areas: "header header header header header header"
+						 "nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar"
+						 "main main main main sidebar sidebar"
+						 "main main main main sidebar sidebar"
+						 "main main main main sidebar sidebar"
+						 "main main main main sidebar sidebar"
+						 "main main main main sidebar sidebar"
+						 "main main main main sidebar sidebar"
+						 "main main main main sidebar sidebar"
+						 "main main main main sidebar sidebar"	
+						 "main main main main sidebar sidebar"				 
+						 "main main main main sidebar sidebar"
+						 "footer footer footer footer footer footer";
+
+	}
+
+	.main{
+		background-color: white;
+		grid-area: main;
+		font-size: 20px;
+		padding: auto;
+
+	}
+
+	.header{
+		background-color: grey;
+		grid-area: header;
+		color: white;
+		padding: auto;
+	}
+
+	.nav-bar{
+		background-color: black;
+		grid-area: nav-bar;
+		color: white;
+	}
+
+	.sidebar{
+		background-color: grey;
+		grid-area: sidebar;
+	}
+
+	.footer{
+		background-color: black;
+		grid-area: footer;
+		color: white;
+	}
+
+
+}
+
+
+img{
+  width: 10%;
+  height: 5%;
+}
+
+
+form{
+	border: 1px solid #42464b;
+	border-radius: 6px;
+	background-color: rgb(0,0,0,0.6);
+	color: white;
+	left: 10%;
+	top: 10%;
+    margin-left: -5%;
+    position: relative;
+    margin-top: -5%;
+}
+
+
+.login-form{
+    width: 85%;
+    color: white;
+
+}
+
+.signup-form{
+	top: 7%;
+	width: 75%;
+
+}
+
+
+input[type="radio"]{
+	width: 10%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4{
+	text-align: center;
+	color: #00FFFF;
+}
+
+p{
+	text-align: center;
+
+}
+
+a{
+	font-weight: bold;
+  	text-align: center;
+  	text-decoration: none;
+    color: #00FFFF;
+}
+
+input[type="btn"]{
+	background-color: blue;
+    border: none;
+    color: white;
+    width: 50%;
+}
+
+input[type="button"]{
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    width: 50%;
+}
+
+input[type="submit"]{
+	background-color: blue;
+    border: none;
+    color: white;
+    width: 50%;
+}
+
+
+input[type="cancel"]{
+	background-color: red;
+    padding: 8px 17px;
+    border: none;
+    color: white;
+    width: 50%;
+}
+
+input[type="change"]{
+	background-color: #4CAF50;
+    padding: 8px 17px;
+    border: none;
+    color: white;
+    width: 50%;
+}
+
+input[type='register']{
+	width: 30%;
+	text-align: center;
+    padding: 8px 17px;
+    margin: 8px 0;
+}
+
+input[type='submit']{
+	width: 30%;
+	text-align: center;
+    padding: 15px 32px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+
+
+input[type='div']{
+	width: 50%;
+	text-align: center;
+	background-color: #00FFFF;
+    padding: 8px 17px;
+    box-sizing: border-box;
+}
+
+input{
+	width: 90%;
+	text-align: center;
+    padding: 12px 28px;
+    margin: 8px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-sizing: border-box;
+}

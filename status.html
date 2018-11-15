@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Check-status</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Admin Panel</h1>
+      </div>
+      <div class="nav-bar topnav">
+          <a href="dash.html">DashBoard</a>
+          <a href="status.html">Order-Status</a>
+          <a href="index-admin.html">LogOut</a>
+      </div>
+      <div class="sidebar">
+        <h2>Orders List</h2>
+      </div>
+      <div class="main">
+        <table>
+          <tbody>
+          <tr>
+            <th>id</th>
+            <th>Name</th>
+            <th>Order</th>
+            <th>weight</th>
+            <th>Date</th>
+            <th>status</th>
+            <th>Confirm</th>
+            <th>Change-Order</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Emmanuel</td>
+            <td>20Parcels</td>
+            <td>20kg</td>
+            <td>20th-Nov-2018</td>
+            <td>
+              <div class="div">Pending</div>
+            </td>
+            <td>
+              <input type="div" value="Confirm" onmouseup="mUp(this)"/>
+            </td>
+            <td>
+              <input type="div" value="Change" onclick="window.location.href='changeorder.html'" />
+            </td>
+            <tr>
+              <td>2</td>
+              <td>Gideon</td>
+              <td>2Parcels</td>
+              <td>15kg</td>
+              <td>11th-Nov-2018</td>
+              <td>
+                <div class="div">Pending</div>
+              </td>
+              <td>
+                <input type="div" value="Confirm" onmouseup="mUp(this)"/>
+              </td>
+              <td>
+                <input type="div" value="Change" onclick="window.location.href='changeorder.html'" />
+              </td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Hadrian</td>
+              <td>10Parcels</td>
+              <td>30kg</td>
+              <td>1st-Nov-2018</td>
+              <td>
+                <div class="cancel">Cancelled</div>
+              </td>
+              <td>
+                <input type="div" value="View" onclick="window.location.href='viewa.html'" />
+              </td>
+              <td>
+                <input type="div" value="Change" onclick="window.location.href='changeorder.html'" />
+              </td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Emmanuel</td>
+              <td>20Parcels</td>
+              <td>20kg</td>
+              <td>20th-Nov-2018</td>
+              <td>
+                <div class="div">Pending</div>
+              </td>
+              <td>
+                <div class="div" onmouseup="mUp(this)">Confirm</div>
+              </td>
+              <td>
+                <a href="changeorder.html" class="btn">Change Destination</a>
+              </td>
+              <tr>
+                <td>5</td>
+                <td>Gideon</td>
+                <td>2Parcels</td>
+                <td>15kg</td>
+                <td>11th-Nov-2018</td>
+                <td>
+                  <div class="div">Pending</div>
+                </td>
+                <td>
+                  <input type="div" value="Confirm" onmouseup="mUp(this)"/>
+                </td>
+                <td>
+                  <input type="div" value="Change" onclick="window.location.href='changeorder.html'" />
+                </td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Hadrian</td>
+                <td>10Parcels</td>
+                <td>30kg</td>
+                <td>1st-Nov-2018</td>
+                <td>
+                  <div class="cancel">Cancelled</div>
+                </td>
+                <td>
+                  <input type="div" value="View" onclick="window.location.href='viewa.html'" />
+                </td>
+                <td>
+                  <input type="div" value="Change" onclick="window.location.href='changeorder.html'" />
+                </td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>Emmanuel</td>
+                <td>20Parcels</td>
+                <td>20kg</td>
+                <td>20th-Nov-2018</td>
+                <td>
+                  <div class="div">Pending</div>
+                </td>
+                <td>
+                  <input type="div" value="Confirm" onmouseup="mUp(this)"/>
+                </td>
+                <td>
+                  <input type="div" value="Change" onclick="window.location.href='changeorder.html'" />
+                </td>
+                <tr>
+                  <td>8</td>
+                  <td>Gideon</td>
+                  <td>2Parcels</td>
+                  <td>15kg</td>
+                  <td>11th-Nov-2018</td>
+                  <td>
+                    <div class="div">Pending</div>
+                  </td>
+                  <td>
+                    <input type="div" value="Confirm" onmouseup="mUp(this)"/>
+                  </td>
+                  <td>
+                    <input type="div" value="Change" onclick="window.location.href='changeorder.html'" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>9</td>
+                  <td>Hadrian</td>
+                  <td>10Parcels</td>
+                  <td>30kg</td>
+                  <td>1st-Nov-2018</td>
+                  <td>
+                    <div class="cancel">Cancelled</div>
+                  </td>
+                  <td>
+                    <input type="div" value="View" onclick="window.location.href='viewa.html'" />
+                  </td>
+                  <td>
+                    <input type="div" value="Change" onclick="window.location.href='changeorder.html'" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>10</td>
+                  <td>Emmanuel</td>
+                  <td>20Parcels</td>
+                  <td>20kg</td>
+                  <td>20th-Nov-2018</td>
+                  <td>
+                    <div class="div">Pending</div>
+                  </td>
+                  <td>
+                    <input type="div" value="Confirm" onmouseup="mUp(this)"/>
+                  </td>
+                  <td>
+                    <input type="div" value="Change" onclick="window.location.href='changeorder.html'" />
+                  </td>
+                  <tr>
+                    <td>11</td>
+                    <td>Gideon</td>
+                    <td>2Parcels</td>
+                    <td>15kg</td>
+                    <td>11th-Nov-2018</td>
+                    <td>
+                      <div class="div">Pending</div>
+                    </td>
+                    <td>
+                      <input type="div" value="Confirm" onmouseup="mUp(this)"/>
+                    </td>
+                    <td>
+                      <input type="div" value="Change" onclick="window.location.href='changeorder.html'" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>12</td>
+                    <td>Hadrian</td>
+                    <td>10Parcels</td>
+                    <td>30kg</td>
+                    <td>1st-Nov-2018</td>
+                    <td>
+                      <div class="cancel">Cancelled</div>
+                    </td>
+                    <td>
+                      <input type="div" value="View" onclick="window.location.href='viewa.html'" />
+                    </td>
+                    <td>
+                      <input type="div" value="Change" onclick="window.location.href='changeorder.html'" />
+                    </td>
+                  </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="footer">
+        <p>SEND-IT SERVICES <a href="#">@copyright---emmanuel</a></p>
+      </div>
+    </div>
+  </body>
+</html>
